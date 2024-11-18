@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: black;
+            border: 5px solid black;
+            height: 100px;
+            width: 100px;
+        }
+        #a:hover ~ .div1{
+            background-color: orange;
+        }
+        #b:hover ~ .div1{
+            background-color: green;
+        }
+        #c:hover~.div1{
+            background-color: blue;
+        }
+        #d:hover~.div1{
+            background-color: yellow;
+        }
+        .div1:hover{
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="a">orange</h1>
+    <h1 id="b">green</h1>
+    <h1 id="c">blue</h1>
+    <h1 id="d">yellow</h1>
+    <div class="div1"></div>
+</body>
+</html>
