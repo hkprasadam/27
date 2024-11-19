@@ -5,16 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #div1{
+            border: 3px solid black;
+            overflow-y: scroll;
+            width: 100px;
+            height: 200px;
+            
+        }
+        /*::-webkit-scrollbar{
+            display: none;
+        }*/
+        #div2{
+            border: 3px solid red;
+            width: 50px;
+            height: 50px;
+            overflow: scroll;
+        }
+        #div2::-webkit-scrollbar{
+            display: none;
+        }
         
     </style>
 </head>
 <body>
     <div id="div1">
-       <div id="div2">
-           <div id="div3">
-
-           </div>
-       </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, labore quos perspiciatis itaque deleniti dolores eos blanditiis. Doloremque laudantium, quas odit tempore repellat delectus pariatur velit excepturi similique totam explicabo.
+        </p>
     </div>
+    <div id="div2">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, aliquid. Voluptas ea nemo qui officiis repudiandae sint nam exercitationem vero voluptatem temporibus? Temporibus amet omnis dolor neque expedita assumenda unde.
+        </p>
+
+    </div> 
+    
+
 </body>
 </html>
