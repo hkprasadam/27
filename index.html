@@ -8,10 +8,8 @@
         #div1{
 
             border: 3px solid black;
-            width: 200px;
-            height: 300px;
-           overflow: hidden;
-            display: none;
+            overflow: hidden;
+            display: none ;
         }
         #head{
             border: 2px solid black;
@@ -24,6 +22,22 @@
         #head:hover ~ #div1{
             display: block;
         }
+        #div2{
+            border: 3px solid red;
+            overflow: hidden;
+            width: 200px;
+            height: 20px;
+            text-overflow: ellipsis;
+            text-wrap: nowrap;
+        
+        }
+        #div3{
+            border: 3px solid;
+            display: none;
+        }
+        #div2:hover ~ #div3{
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -31,11 +45,14 @@
         <img src="./hanuman ji image.jpg"alt="" width="200" height="200">
     </div>
     <h3 id="head">The above picture is lord Hanuman. he is great warrior and he is know for his strength</h3>
-    <div>
-        <img src="" alt="">
-    </div>
     <div id="div1">
-        <h1>The above picture is lord Hanuman. he is great warrior and he is know for his strength</h1>
+        <h3>The above picture is lord Hanuman. he is great warrior and he is know for his strength</h3>
     </div>
+    <div>
+        <img src="./400mm-full-moon-moon-606513.jpg" alt="" width="200" height="200">
+    </div>
+    <h3 id="div2">The picture is of Moon. Which closet star to earth its the statilite of the earth </h3>
+    <div id="div3"><h3 >The picture is of Moon. Which closet star to earth its the statilite of the earth </h3></div>
+    
 </body>
 </html>
