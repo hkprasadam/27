@@ -8,15 +8,22 @@
         #div1{
 
             border: 3px solid black;
-            display: hidden;
+            display: none;
+        }
+        #head{
+            border: 2px solid black;
+            display: inline;
+        }
+        #head:hover ~ #div1{
+            display: block;
         }
     </style>
 </head>
 <body>
     <div>
-        <img src="./hanuman ji image.jpg"alt="" width="200" height="200" >
-        click here for information
+        <img src="./hanuman ji image.jpg"alt="" width="200" height="200">
     </div>
+    <h3 id="head">click here for information</h3> 
     <div id="div1">
         <h1>The above picture is lord Hanuman. he is great warrior and he is know for his strength</h1>
     </div>
