@@ -5,87 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       
-        
         #div1{
             border: 3px solid black;
-            width: 200px;
-            height: 200px;
-            background-color:antiquewhite;
-            margin-left: 150px;
-        }
-        .image{
-            border: 3px solid;
-            width: 90px;
-            background-color: red;
-            margin-left: 190px;
-        }
-        #hanuman{
-            border: 3px solid black;
-            background-color: orange;
-            overflow: hidden;
-            width: 400px;
-            margin-left: 40px;
-            padding-left: 30px;
-            padding-right: 30px;
-            display:none;
-        }
-        .image:hover + #hanuman{
-            display: block;
-        }
-        #div2{
-            border: 3px solid black;
-            width: 200px;
-            height: 200px;
-            background-color: aqua;
-            margin-left: 150px;
-        
-        
+            width: 300px;
+            background-color:orange;
             
         }
-        .image2{
-            border: 3px solid;
-            width: 50px;
-            margin-left: 215px;
-            background-color: blueviolet;
-        }
-        #moon{
-            border: 3px solid black;
-            background-color: brown;
-            width: 400px;
-            overflow: hidden;
-            margin-left: 50px;
+        #para1{
             display: none;
         }
-        .image2:hover + #moon{
+        #div1:hover ~ #para1{
             display: block;
         }
-
-
         
+            
         
-
-       
-        
-
-       
-        
-
-
     </style>
 </head>
 <body>
-    <div id="div">
     <div id="div1">
-        <img src="./hanuman ji image.jpg" alt="" width="200" height="200">
+        <img id="img1" src="./hanuman ji image.jpg" alt="" height="200" width="200">
+        <button id="b1">Hover here for information</button>
     </div>
-    <h3 class="image">Lord Hanuman</h3>
-    <p id="hanuman">Hanuman (/ˈhʌnʊˌmɑːn/; Sanskrit: हनुमान्, IAST: Hanumān),[5] also known as Maruti, Bajrangabali, and Anjaneya,[6] is a deity in Hinduism, revered as a divine vanara, and a devoted companion of the deity Rama. Central to the Ramayana, Hanuman is celebrated for his unwavering devotion to Rama and is considered a chiranjivi. He is traditionally believed to be the spiritual offspring of the wind deity Vayu, who is said to have played a significant role in his birth.[7][8] In Shaiva tradition, he is regarded to be an incarnation of Shiva, while in most of the Vaishnava traditions he is the son and incarnation of Vayu. His tales are recounted not only in the Ramayana but also in the Mahabharata and various Puranas.</p>
-    <div id="div2">
-        <img src="./400mm-full-moon-moon-606513.jpg" alt="" width="200" height="200">
+    
+        <p id="para1">Hanuman (/ˈhʌnʊˌmɑːn/; Sanskrit: हनुमान्, IAST: Hanumān),[5] also known as Maruti, Bajrangabali, and Anjaneya,[6] is a deity in Hinduism, revered as a divine vanara, and a devoted companion of the deity Rama. Central to the Ramayana, Hanuman is celebrated for his unwavering devotion to Rama and is considered a chiranjivi. He is traditionally believed to be the spiritual offspring of the wind deity Vayu, who is said to have played a significant role in his birth.[7][8] In Shaiva tradition, he is regarded to be an incarnation of Shiva, while in most of the Vaishnava traditions he is the son and incarnation of Vayu. His tales are recounted not only in the Ramayana but also in the Mahabharata and various Puranas.</p>
+
+    <div id="div3">
+         <img id="img2" src="./400mm-full-moon-moon-606513.jpg" alt="" height="200" width="200">
+         <h2>Hover here for information</h2>
     </div>
-    <h3 class="image2">Moon</h3>
-    <p id="moon">The Moon is Earth's only natural satellite. It orbits at an average distance of 384,400 km, about 30 times the diameter of Earth. Tidal forces between Earth and the Moon have synchronized the Moon's orbital period with its rotation period at 29.5 Earth days, causing the same side of the Moon to always face Earth.</p>
-</div>
+    
+        <p id="para2">The Moon is Earth's only natural satellite. It orbits at an average distance of 384,400 km (238,900 mi), about 30 times the diameter of Earth. Tidal forces between Earth and the Moon have synchronized the Moon's orbital period (lunar month) with its rotation period (lunar day) at 29.5 Earth days, causing the same side of the Moon to always face Earth. The Moon's gravitational pull—and, to a lesser extent, the Sun's—are the main drivers of Earth's tides.</p>
+    
 </body>
 </html>
