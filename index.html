@@ -7,16 +7,45 @@
     <style>
         #div1{
             border: 3px solid black;
-            width: 300px;
+            width: 400px;
+            /*height: 260px;*/
             background-color:orange;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            box-shadow: 10px 15px black;
             
         }
         #para1{
-            display: none;
+             display: none;
         }
-        #div1:hover ~ #para1{
+        #img1{
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            margin-left: 95px;
+            margin-top: 20px;
+            box-shadow: 5px 15px ;
+        }
+        #b1{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-left: 110px;
+            margin-top: 5px;
+            box-shadow: 5px 6px;
+            background-color: green;
+            
+        }
+        
+        #div1 > #b1:hover + #para1{
             display: block;
         }
+        
+
         
             
         
@@ -26,9 +55,8 @@
     <div id="div1">
         <img id="img1" src="./hanuman ji image.jpg" alt="" height="200" width="200">
         <button id="b1">Hover here for information</button>
-    </div>
-    
         <p id="para1">Hanuman (/ˈhʌnʊˌmɑːn/; Sanskrit: हनुमान्, IAST: Hanumān),[5] also known as Maruti, Bajrangabali, and Anjaneya,[6] is a deity in Hinduism, revered as a divine vanara, and a devoted companion of the deity Rama. Central to the Ramayana, Hanuman is celebrated for his unwavering devotion to Rama and is considered a chiranjivi. He is traditionally believed to be the spiritual offspring of the wind deity Vayu, who is said to have played a significant role in his birth.[7][8] In Shaiva tradition, he is regarded to be an incarnation of Shiva, while in most of the Vaishnava traditions he is the son and incarnation of Vayu. His tales are recounted not only in the Ramayana but also in the Mahabharata and various Puranas.</p>
+    </div>
 
     <div id="div3">
          <img id="img2" src="./400mm-full-moon-moon-606513.jpg" alt="" height="200" width="200">
